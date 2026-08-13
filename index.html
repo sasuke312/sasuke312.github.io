@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
-    <title>sasuke312のポートフォリオ</title>
-  </head>
-  <body>
-    <h1>sasuke312のポートフォリオ</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポートフォリオ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>マイ ポートフォリオ</h1>
+    <button id="theme-btn">ダークモード切り替え</button>
+  </header>
 
-    <h2>About</h2>
-    <p>
-      ZEN大学でWebアプリケーション開発を学んでいます。<br>
-      HTMLやCSSの基本をマスターして、自分のWebページを作れるようになりました。
-    </p>
+  <main>
+    <section class="profile">
+      <h2>プロフィール</h2>
+      <p id="greeting">こんにちは！Webアプリケーション開発を学習中です。</p>
+      <button id="greet-btn">挨拶を変える</button>
+    </section>
 
-    <h3>Profile</h3>
-    <ul>
-      <li>名前：sasuke312</li>
-      <li>得意領域：HTMLとCSSのマークアップ</li>
-    </ul>
+    <section class="skills">
+      <h2>スキル</h2>
+      <ul>
+        <li>HTML / CSS</li>
+        <li>JavaScript</li>
+        <li>Git / GitHub</li>
+        <li>Linux / Docker</li>
+      </ul>
+    </section>
+  </main>
 
-    <h3>Skills</h3>
-    <table>
-      <tr>
-        <th>言語</th>
-        <td>HTML, CSS</td>
-      </tr>
-      <tr>
-        <th>ツール</th>
-        <td>Git, GitHub</td>
-      </tr>
-    </table>
+  <footer>
+    <p>&copy; 2026 Portfolio</p>
+  </footer>
 
-    <h3>Works</h3>
-    <p>これから作った作品をここに追加していく予定です。</p>
-    <ul>
-      <li><a href="https://github.com/sasuke312">私のGitHubプロフィール</a></li>
-    </ul>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
